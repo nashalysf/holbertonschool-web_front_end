@@ -16,8 +16,8 @@
 html {
    scroll-behavior: smooth;
 }
-body {
-    font-family: "font-family-base";
+body{
+    font-family: var(--font-family-base);
 }
 body, a{
     color: var(--text-color);
@@ -30,5 +30,5 @@ body, a{
    color: var(--color-primary);
 }
 h6{
-    font-family: "font-family-title";
+    font-family: var(--font-family-title);
 }
