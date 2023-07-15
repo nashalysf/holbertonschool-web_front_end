@@ -76,6 +76,7 @@ a:active {
 }
 .section-footer {
   padding: var(--section-body-footer);
+  text-align: var(--section-footer-align);
 }
 .section-title {
   font-family: var(--font-family-title);
@@ -109,7 +110,6 @@ h6 {
 }
 .footer {
   padding: var(--footer-padding);
-  text-align: var(--section-footer-align);
 }
 /*-------------------------------*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
