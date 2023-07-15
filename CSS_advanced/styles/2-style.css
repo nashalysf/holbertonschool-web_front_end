@@ -6,9 +6,7 @@
 html {
    scroll-behavior: smooth;
 }
-body{
-    margin: 0;
-}
+
 body, a{
     color: #161616;
 }
