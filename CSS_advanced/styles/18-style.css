@@ -66,8 +66,9 @@ html {
 .nav,
 .nav-link {
   padding: auto;
-  display: block;
+  display: var(--nav-item-display);
 }
+.nav,
 .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
