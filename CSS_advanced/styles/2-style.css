@@ -3,16 +3,19 @@
 *::after {
     box-sizing: border-box;
 }
-body {
-    margin: 0;
-    background-color: #161616;
-}
 html {
    scroll-behavior: smooth;
 }
+body{
+    margin: 0;
+}
+.a {
+    background-color: #161616;
+}
+
 .visually-hidden{
     display: none;
 }
-.card-category{
+.card-category, .section-tagline{
     background-color: #D73953;
 }
