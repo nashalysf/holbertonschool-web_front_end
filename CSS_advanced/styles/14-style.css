@@ -30,22 +30,18 @@
 html {
    scroll-behavior: smooth;
    font-size: 62.5%;
-   line-height: 1.15;
-   -webkit-text-size-adjust: 100%;
 }
 body{
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-    margin: 0;
 }
 body, a{
     color: var(--text-color);
 }
 a:link{
     text-decoration: none;
-    background-color: transparent;
 }
 a:visited {
     font-style: italic;
@@ -55,9 +51,6 @@ a:hover{
 }
 a:active{
     background-color: var(--color-light-grey);
-}
-.main{
-    display: block;
 }
 .visually-hidden{
     display: none;
@@ -83,9 +76,4 @@ a:active{
 h1, h2, h3, h4, h5, h6{
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-}
-hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible; 
 }
