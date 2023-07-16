@@ -57,7 +57,7 @@ html {
 .nav .nav-item {
   margin: var(--nav-item-margin);
   display: var(--nav-item-display);
-  line-height: var(--nav-item-letter-spacing);
+  letter-spacing: var(--nav-item-letter-spacing);
   font-size: var(--nav-item-font-size);
   font-weight: var(--nav-item-font-weight);
   font-family: var(--nav-item-font-family);
