@@ -261,7 +261,7 @@ ul.row {
 .card-work .card-title {
   text-align: center;
   margin: 0;
-  opacity: 1;
+  opacity: 0;
   height: 100%;
   position: relative;
 }
@@ -279,7 +279,7 @@ ul.row {
   content: "";
 }
 .card-work .card-title:hover {
-  opacity: 0;
+  opacity: 1;
 }
 .card-testimonial {
   text-align: center;
