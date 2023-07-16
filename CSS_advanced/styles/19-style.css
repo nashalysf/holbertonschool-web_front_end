@@ -32,9 +32,9 @@
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 4%;
+  --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: 3 0;
+  --nav-item-margin: 0 0 3rem;
   --nav-item-link-hover: var(--color-primary);
 }
 *,
@@ -58,16 +58,16 @@ html {
 .nav .nav-item {
   margin: var(--nav-item-margin);
   display: var(--nav-item-display);
-  line-height: var(--nav-item-letter-spacing);
+  letter-spacing: var(--nav-item-letter-spacing);
   font-size: var(--nav-item-font-size);
   font-weight: var(--nav-item-font-weight);
   font-family: var(--nav-item-font-family);
 }
 .nav .nav-link {
-  padding: 50% 0;
+  padding: 0.5rem 1rem;
   display: block;
 }
-.nav.nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 body {
@@ -147,14 +147,14 @@ ul.row {
   list-style: none;
 }
 .col-1-3 {
-  width: 33.33%;
+  width: 0.33em;
   float: left;
-  padding: 50%;
+  padding: 0.5rem;
 }
 .col-1-2 {
-  width: 50%;
+  width: 0.5em;
   float: left;
-  padding: 50%;
+  padding: 0.5rem;
 }
 .footer {
   padding: var(--footer-padding);
