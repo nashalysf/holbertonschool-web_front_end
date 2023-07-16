@@ -33,7 +33,7 @@
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 4%;
   --nav-item-display: inline-block;
-  --nav-item-margin: 3 0;
+  --nav-item-margin: 0 0 3rem;
   --nav-item-link-hover: var(--color-primary);
 }
 *,
@@ -54,8 +54,7 @@ html {
   list-style: none;
   text-align: center;
 }
-.nav,
-.nav-item {
+nav.nav-item {
   margin: var(--nav-item-margin);
   display: var(--nav-item-display);
   line-height: var(--nav-item-letter-spacing);
@@ -63,13 +62,11 @@ html {
   font-weight: var(--nav-item-font-weight);
   font-family: var(--nav-item-font-family);
 }
-.nav,
-.nav-link {
-  padding: 50% 0;
+nav.nav-link {
+  padding: 0.5rem 1rem;
   display: block;
 }
-.nav,
-.nav-link:hover {
+nav.nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 body {
