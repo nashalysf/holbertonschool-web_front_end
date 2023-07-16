@@ -54,7 +54,8 @@ html {
   list-style: none;
   text-align: center;
 }
-.nav.nav-item {
+.nav,
+.nav-item {
   margin: var(--nav-item-margin);
   display: var(--nav-item-display);
   line-height: var(--nav-item-letter-spacing);
@@ -62,11 +63,13 @@ html {
   font-weight: var(--nav-item-font-weight);
   font-family: var(--nav-item-font-family);
 }
-.nav.nav-link {
+.nav,
+.nav-link {
   padding: 50% 0;
   display: block;
 }
-.nav.nav-link:hover {
+.nav,
+.nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 body {
@@ -106,7 +109,7 @@ a:active {
   text-align: var(--section-footer-align);
 }
 .section-footer {
-  padding: var(--section-body-footer);
+  padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
 }
 .section-title {
