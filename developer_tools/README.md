@@ -13,4 +13,4 @@
     How to move elements on a webpage
 
 #### Analyzing https://dev-tools.hbtn.info/
-![Page to be inspected]("../assets/dev-tools.hbtn.info/.png")
+![Page to be inspected](../assets/dev-tools.hbtn.info:.png)
